@@ -5,6 +5,7 @@ body {
   padding:10px;
   font-family:'Quicksand',Helvetica,sans-serif;
   font-size:1rem;
+  line-height:1.5;
 }
 p {
   font-family: 'Quicksand', sans-serif;
@@ -20,14 +21,19 @@ h1 {
 h2 {
   font-family:'Poiret One', Helvetica, sans-serif;
   font-weight:300;
+  margin-bottom:40px;;
 }
 a {
   color:#cccccc;
   text-decoration:none;
 }
+a:hover {
+  color:white;
+}
 .nav-item {
   padding-right:20px;
   font-size:36px;
+  font-family:'Poiret One', Helvetica, sans-serif;
 }
 
 .nav-item:hover {
@@ -75,13 +81,14 @@ nav button {
   padding:10px;
 }
 .card-deck {
-  width:75%;
+  max-width:750px;
 }
 .card {
   background-color:#cccccc;
   color:#2c2c2c;
   border:none;
   min-width:200px;
+  max-width:200px;
   flex-direction:column;
   word-wrap:normal;
 }
@@ -110,7 +117,7 @@ nav button {
   margin:20px;
 }
 .aboutList {
-  line-height:30px;
+  line-height:1.5;
   font-family:'Quicksand', Helvetica, sans-serif;
 }
 blockquote {
