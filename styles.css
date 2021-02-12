@@ -123,6 +123,10 @@ nav button {
 blockquote {
   margin-left:40px;
 }
+iframe {
+  height:800px;
+  max-width:750px;
+}
 /* 
 Extra small devices (portrait phones, less than 544px) 
 No media query since this is the default in Bootstrap because it is "mobile first"
