@@ -7,6 +7,39 @@ body {
   font-size:1rem;
   line-height:1.5;
 }
+
+.experiment {
+  text-align:center;
+}
+#pulse-button {
+  height:100px;
+  width:100px;
+  border-radius:100%;
+  background-color:#cccccc;
+  color:#2c2c2c;
+  cursor: pointer;
+  box-shadow: 0 0 0 0px white;
+  animation: pulse 1.5s infinite;
+}
+#resume {
+  display:none;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+    background-color:white;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+
 p {
   font-family: 'Quicksand', sans-serif;
   font-size:24px;
